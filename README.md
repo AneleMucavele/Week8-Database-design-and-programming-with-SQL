@@ -12,11 +12,8 @@ This repository contains a **relational database** and a **CRUD API** built with
 ## 🧠 Question 1: MySQL Database
 
 - **Use Case**: Contact Book
-- SQL file: [`contact_book.sql`](./question-1-database/contact_book.sql)
-
-### ERD
-
-![image](https://github.com/user-attachments/assets/fbdd1ded-d971-43c3-a805-55008db81c34)
+- Created well structured tables with proper constraints (PK, FK, NOT NULL, UNIQUE)
+- Relationships (1-1, 1-M, M-M where needed)
 
 ---
 
@@ -28,6 +25,11 @@ This repository contains a **relational database** and a **CRUD API** built with
 - Create, update, and delete contacts
 - Link contacts to users (1-M relationship)
 - Connects to MySQL database
+
+- ### ERD
+
+![image](https://github.com/user-attachments/assets/fbdd1ded-d971-43c3-a805-55008db81c34)
+
 
 ### Run the Project
 
